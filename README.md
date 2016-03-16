@@ -1,3 +1,3 @@
+#Yolkomatic site
 
-This is a compressed-commit version of
-[github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)
+Simple site for Yolkomatic based on Tim O'Brien's [SinglePaged theme](https://github.com/t413/SinglePaged).
