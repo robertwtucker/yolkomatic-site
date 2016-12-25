@@ -6,7 +6,12 @@ safe: false
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, LICENSE.md, .gitignore]
+exclude:
+  - CNAME
+  - README.md
+  - .gitignore
+  - .git
+  - docker-compose.yml
 permalink: /:title ## disables post output
 timezone: null
 lsi: false
