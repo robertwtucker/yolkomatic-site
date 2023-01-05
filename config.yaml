@@ -20,3 +20,9 @@ params:
     turquoise: "#0fbfcf"
     dk_gray: "#a0a0a0"
     lt_gray: "#c0c0c0"
+
+deployment:
+  targets:
+    name: prod
+    URL: s3://yolkomatic.com?region=us-east-1
+    #cloudFrontDistributionID = <ID>
