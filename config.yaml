@@ -1,20 +1,22 @@
-### content configuration ###
-baseURL: "https://yolkomatic.com/"
-languageCode: "en-us"
-title: "Yolk-O-Matic"
-keywords: "yolkomatic, software"
-description: "Placeholder site for yolkomatic.com"
-sourceLink: "https://github.com/robertwtucker/yolkomatic-site"
-googleAnalyticsKey: ## put YOUR key here to enable tracking! (blank to disable)
+baseURL: https://yolkomatic.com/
+languageCode: en-us
+title: Yolk-O-Matic
+googleAnalytics: ## put key here to enable tracking (blank to disable)
+enableRobotsTXT: true
 
-### template colors, used site-wide via css ###
-colors:
-  black: "#111111"
-  white: "#f8f8f8"
-  blue: "#49a7e9"
-  green: "#9bcf2f"
-  purple: "#c869bf"
-  orange: "#fab125"
-  turquoise: "#0fbfcf"
-  dk-gray: "#a0a0a0"
-  lt-gray: "#c0c0c0"
+params:
+  ### content configuration ###
+  keywords: yolkomatic, software
+  description: Placeholder site for yolkomatic.com
+  source_link: https://github.com/robertwtucker/yolkomatic-site
+  ### template colors, used site-wide via css ###
+  colors:
+    black: "#111111"
+    white: "#f8f8f8"
+    blue: "#49a7e9"
+    green: "#9bcf2f"
+    purple: "#c869bf"
+    orange: "#fab125"
+    turquoise: "#0fbfcf"
+    dk_gray: "#a0a0a0"
+    lt_gray: "#c0c0c0"
