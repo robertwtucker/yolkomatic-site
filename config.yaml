@@ -23,6 +23,6 @@ params:
 
 deployment:
   targets:
-    name: prod
+    name: production
     URL: s3://yolkomatic.com?region=us-east-1
-    #cloudFrontDistributionID = <ID>
+    cloudFrontDistributionID: E27CLMMNHJ1CT
