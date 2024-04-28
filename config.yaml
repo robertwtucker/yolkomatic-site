@@ -9,6 +9,12 @@ params:
   keywords: yolkomatic, software
   description: Placeholder site for yolkomatic.com
   source_link: https://github.com/robertwtucker/yolkomatic-site
+  ### support using Umami for analytics ###
+  umami:
+    ## put id here to enable tracking (leave blank to disable)
+    ## can also set HUGO_PARAMS_UMAMI_ID
+    id:
+    src: https://us.umami.is/script.js
   ### template colors, used site-wide via css ###
   colors:
     black: "#111111"
