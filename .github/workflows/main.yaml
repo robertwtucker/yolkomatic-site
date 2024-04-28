@@ -22,8 +22,8 @@ jobs:
       - name: Build
         run: hugo --minify
         env:
-          HUGO_PARAMS_UMAMI_ID: ${{ env.UMAMI_WEBSITE_ID }}
-          HUGO_PARAMS_UMAMI_SRC: ${{ env.UMAMI_SCRIPT_SRC }}
+          HUGO_PARAMS_UMAMI_ID: ${{ vars.UMAMI_WEBSITE_ID }}
+          HUGO_PARAMS_UMAMI_SRC: ${{ vars.UMAMI_SCRIPT_SRC }}
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/master' }}
         run: hugo deploy --invalidateCDN
