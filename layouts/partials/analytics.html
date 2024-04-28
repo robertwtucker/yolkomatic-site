@@ -12,4 +12,7 @@
   })();
 </script>
 {{- end }}
+{{- if .Site.Params.umami.id }}
+<script async defer data-website-id="{{ .Site.Params.umami.id }}" src="{{ .Site.Params.umami.src }}"></script>
+{{- end }}
 {{- end }}
